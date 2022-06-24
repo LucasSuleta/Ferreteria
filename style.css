@@ -1,3 +1,52 @@
-body{
-background: #e90505;
+*{
+    list-style:none;
+    text-decoration: none;
+    color:black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
+
+header{
+    background-color: rgb(240, 226, 240);
+}
+
+#logo{
+    float:left;
+    width:10%;
+}
+#menuPrincipal a{
+    float:left;
+    color: white;
+    font-size:20px;
+    border: solid white 2px;
+    width: 150px;
+    text-align: center; 
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+#menuPrincipal {
+    position:relative;
+    left:15%;
+    top:15px;
+    width: 90%;  
+}
+
+h1{
+    
+    position:absolute;
+    color:black;
+    font-size: 40px;
+    left:500px;
+    top:80px;
+}    
+
+#portada{
+    width: 100%;
+}
+
+#contenedorPrincipal{
+    width:100%;
+    margin:auto;
+} 
